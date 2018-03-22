@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+header {
+  background-color: rgb(0, 238, 255);
+  text-align: center;
+}
+
+.logo {
+  margin-top: 10px;
+  height: 150px;
+  -webkit-animation: rotation 13s infinite linear;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 5px;
+  background-color: rgb(0, 238, 255);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+small {
+  margin-left: 10px;
+  color: black;
+}
+
+.footer-contact a {
+  color: black;
+  margin: 0px 5px;
+  text-decoration: none;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}

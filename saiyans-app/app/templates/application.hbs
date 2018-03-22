@@ -1,5 +1,39 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
+<header>
+    <img src="https://vignette.wikia.nocookie.net/dbz-dokkanbattle/images/f/fe/Dragonballs_for_you_by_ruga_rell-d5aelw8.png/revision/latest?cb=20170925224904"
+        class="logo" alt="dragon balls" />
+    <h1 class="title">Become a Super Saiyan</h1>
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" style="color: black" href="/">Trainers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color: black" href="/profiles">profiles</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color: black" href="/skills">Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="color: black" href="/contact">Contact</a>
+        </li>
+    </ul>
+</header>
 {{outlet}}
+<footer id="footer">
+    <small>© 2018 Jordan Smith</small>
+    <div class="footer-contact">
+        <a href="https://github.com/JoSmith17/">
+            <img src="../github.png" alt="Github icon">
+        </a>
+        <a href="https://www.linkedin.com/in/techjems17/">
+            <img src="../linkedin.png" alt="Linkedin icon">
+        </a>
+        <a href="mailto:jordansmith3326@yahoo.com">
+            <img src="../email.png" alt="Email icon">
+        </a>
+    </div>
+</footer>
