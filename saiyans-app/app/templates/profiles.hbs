@@ -1,0 +1,20 @@
+<section class="profiles">
+    {{#each model as |saiyan|}} 
+        <li>
+            <div class="teacher">
+                <img src="{{saiyan.image}}">
+                <h4>Trainer : {{saiyan.teacher}}</h4>
+            </div>
+            <div class="info">
+                <h4>{{saiyan.name}}</h4>
+                <small>Date of birth : {{saiyan.dob}}</small>
+                <p>Greatest desire : {{saiyan.description}}</p>
+            </div>
+            <div class="change">
+                {{#link-to "edit" saiyan.id}}
+                <img src="https://files.gamebanana.com/img/ico/sprays/1stardb.png" alt="edit/delete">{{/link-to}}
+                <small>Edit</small>
+            </div>
+        </li>
+    {{/each}}
+</section>
