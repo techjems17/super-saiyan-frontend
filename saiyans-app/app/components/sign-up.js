@@ -24,8 +24,7 @@ export default Component.extend({
         },
 
         setSelection(selected) {
-            
-            var chosenTeacher = this.get('teacher').filter(teacher => {
+            var chosenTeacher = this.get('model.teachers').filter(teacher => {
                 return teacher.id == selected;
             });
             this.set('teacherSelected', chosenTeacher[0].teacher);

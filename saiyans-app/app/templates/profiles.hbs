@@ -11,11 +11,10 @@
                     <small>Date of birth : {{saiyan.dob}}</small>
                     <p>Greatest desire : {{saiyan.description}}</p>
                 </div>
-                <div class="change">
-                    <button>
-                    {{!-- {{#link-to "edit" saiyan.id}} --}}
-                        <img src="https://files.gamebanana.com/img/ico/sprays/1stardb.png" alt="edit/delete"> {{!-- {{/link-to}} --}}
-                    </button>
+                <div id="change">
+                    {{#link-to "change" saiyan.id}}
+                        <img src="https://files.gamebanana.com/img/ico/sprays/1stardb.png" alt="One star dragonball">
+                    {{/link-to}}
                     <small>Edit</small>
                 </div>
             </li>

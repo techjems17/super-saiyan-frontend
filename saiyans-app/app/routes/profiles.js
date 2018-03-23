@@ -8,5 +8,5 @@ export default Route.extend({
             profiles: this.store.findAll('profile'),
             teachers: $.getJSON('teacher.json')
         });
-    }
+    },
 });
