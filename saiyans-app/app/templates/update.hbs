@@ -1,0 +1,12 @@
+<div class="skills-update">
+    <form onsubmit={{action "update"}}>
+        <label for="name">Update Skill</label>
+        {{input type="text" value=name id="name" name="name"}}
+        <label for="description">Update Description</label>
+        {{textarea value=description id="description" name="description" rows="8" cols="40"}}
+        <input type="submit" id="edit" value="update">
+    </form>
+</div>
+<div id="delete">
+    <button onclick={{action "delete"}}>Delete skill</button>
+</div>

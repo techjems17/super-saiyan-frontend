@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('contact');
   this.route('change', { path: '/change/:profile_id' });
   this.route('skills');
+  this.route('update', { path: '/update/:skill_id' });
 });
 
 export default Router;
