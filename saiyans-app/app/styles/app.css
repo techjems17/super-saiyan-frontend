@@ -11,12 +11,25 @@ header {
   -webkit-animation: rotation 13s infinite linear;
 }
 
+#trainers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#trainers .card {
+  margin: 25px 0px;
+  background-color: orange;
+  border: 1px solid black;
+  padding-bottom: 2.5rem;
+}
+
 #profiles-page {
   margin-top: 25px;
   display: flex;
 }
 
-section {
+ #profiles-page section {
   width: 50%;
   margin: 0px 45px;
 }
@@ -128,6 +141,8 @@ input[type=submit]:hover {
 }
 
 .contact {
+  min-height: calc(70vh - 57px);
+
   margin-top: 50px;
   text-align: center;
   display: flex;
@@ -148,7 +163,7 @@ input[type=submit]:hover {
   justify-content: space-between;
   padding: 20px 5px;
   background-color: rgb(0, 238, 255);
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }

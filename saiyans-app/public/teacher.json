@@ -1,21 +1,26 @@
 [{
   "id": 0,
   "teacher": "Goku",
-  "image": "http://www.pngmart.com/files/2/Goku-Transparent-PNG.png"
+  "image": "http://www.pngmart.com/files/2/Goku-Transparent-PNG.png",
+  "description": "AKA Kakarot was sent to Earth to destroy it. Do to an accident causing head trauma he forgot everything. Because of this he grew to be pure hearted, and a protector of Earth. He constantly trains to become stronger, and to be the greatest fighter in the universe."
 }, {
   "id": 1,
   "teacher": "Vegeta",
-  "image": "http://www.pngmart.com/files/2/Vegeta-PNG-Image.png"
+  "image": "http://www.pngmart.com/files/2/Vegeta-PNG-Image.png",
+  "description": "He is the prince of the Saiyan race, which has fallen. He has lots of pride and was once a heartless, cold-blooded killer. Now he fights along side Goku with the hope of one day beating him in a fight."
 }, {
   "id": 2,
   "teacher": "Master Roshi",
-  "image": "https://vignette.wikia.nocookie.net/drslump/images/f/f3/517557-tortue_gniale.png/revision/latest?cb=20140121194858"
+  "image": "https://vignette.wikia.nocookie.net/drslump/images/f/f3/517557-tortue_gniale.png/revision/latest?cb=20140121194858",
+  "description": "An ancient, pervy man who lives in martial heaven where he has trained many Saiyans, including Goku. Hey if you can learn from the man who taught the strongest fighter in the universe that is not considered a God, what's putting up with a little perviness."
 }, {
   "id": 3,
   "teacher": "Piccolo",
-  "image": "https://vignette.wikia.nocookie.net/ultradragonball/images/7/75/Baby_piccolo_by_db_own_universe_arts-d49fd6m-2-.png/revision/latest?cb=20111119153405"
+  "image": "https://vignette.wikia.nocookie.net/ultradragonball/images/7/75/Baby_piccolo_by_db_own_universe_arts-d49fd6m-2-.png/revision/latest?cb=20111119153405",
+  "description": "Another past enemy of Goku's, this wise warrior kills Goku, but then later becomes allies with him due to being quite fond of Goku's son, Gohan."
 }, {
   "id": 4,
   "teacher": "Shenron",
-  "image": "http://static.tvtropes.org/pmwiki/pub/images/3854974a92084c3769e19ae8eae31123_0.png"
+  "image": "http://static.tvtropes.org/pmwiki/pub/images/3854974a92084c3769e19ae8eae31123_0.png",
+  "description": "Neither an enemy nor an ally to any, this mighty dragon has powers beyond belief. He grants one wish to anyone who collects all seven dragon balls and summons him. After he grants the wish, the dragon balls rescatter across the world."
 }]

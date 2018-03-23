@@ -1,22 +1,22 @@
 import Component from '@ember/component';
 
 export default Component.extend({
-        // saiyanData: Ember.computed(() => {
-    //     return {
-    //         labels: ["Goku", "Vegeta", "Master Roshi", "Piccolo", "Shenron"],
-    //         datasets: [{
-    //             label: "# of wins",
-    //             data: [57, 12, 1, 7, 0],
-    //             backgroundColor: "orange"
-    //         }, {
-    //             label: "# of losses",
-    //             data: [15, 10, 0, 9, 0],
-    //             backgroundColor: "red"
-    //         }],
-    //         borderColor: "rgb(248, 185, 13)",
-    //         borderWidth: 1
-    //     }
-    // }),
+    saiyanData: Ember.computed(() => {
+        return {
+            labels: ["Goku", "Vegeta", "Master Roshi", "Piccolo", "Shenron"],
+            datasets: [{
+                label: "# of wins",
+                data: [57, 12, 1, 7, 0],
+                backgroundColor: "orange"
+            }, {
+                label: "# of losses",
+                data: [15, 10, 0, 9, 0],
+                backgroundColor: "red"
+            }],
+            borderColor: "rgb(248, 185, 13)",
+            borderWidth: 1
+        }
+    }),
 
     actions: {
         toggleForm() {

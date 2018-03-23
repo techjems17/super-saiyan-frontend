@@ -24,6 +24,7 @@
         {{textarea value=description name="description" rows="8" cols="40" placeholder="Dig deep down"}}
         <input type="submit" name="submit" value="Start Training">
     </form>
-    {{/if}} {{!-- {{ember-chart type='bar' data=saiyanData}} --}}
+    {{/if}}
+    {{ember-chart type='bar' data=saiyanData}}
 </section>
 {{yield}}

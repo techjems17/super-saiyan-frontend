@@ -1,1 +1,12 @@
+<section id="trainers">
+    {{#each model as |trainer|}}
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" style="height: 18rem;" src="{{trainer.image}}" alt="{{trainer.teacher}}">
+            <div class="card-body">
+                <h5 class="card-title">{{trainer.teacher}}</h5>
+                <p class="card-text">{{trainer.description}}</p>
+            </div>
+        </div>
+    {{/each}}
+</section>
 {{outlet}}
