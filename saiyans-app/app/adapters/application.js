@@ -1,5 +1,5 @@
 import DS from 'ember-data';
 
 export default DS.RESTAdapter.extend({
-    host: "localhost:3000"
+    host: "https://fast-thicket-14832.herokuapp.com"
 });
