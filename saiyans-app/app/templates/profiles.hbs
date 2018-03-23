@@ -1,6 +1,6 @@
 <div id="profiles-page">    
     <section class="profiles">
-        {{#each model as |saiyan|}} 
+        {{#each model.profiles as |saiyan|}} 
             <li>
                 <div class="teacher">
                     <img src="{{saiyan.image}}">
@@ -12,41 +12,14 @@
                     <p>Greatest desire : {{saiyan.description}}</p>
                 </div>
                 <div class="change">
+                    <button>
                     {{!-- {{#link-to "edit" saiyan.id}} --}}
-                    <img src="https://files.gamebanana.com/img/ico/sprays/1stardb.png" alt="edit/delete">
-                    {{!-- {{/link-to}} --}}
+                        <img src="https://files.gamebanana.com/img/ico/sprays/1stardb.png" alt="edit/delete"> {{!-- {{/link-to}} --}}
+                    </button>
                     <small>Edit</small>
                 </div>
             </li>
         {{/each}}
     </section>
-    <section class="sign-up">
-        <button {{action "toggleForm"}}>Start Your Training</button>
-        {{#if isNew}}
-            <form class="form" onsubmit={{action "submit"}}>
-                <label for="name">Name</label>
-                {{input type="text" value=name name="name" placeholder="John Smith"}}
-                <label for="dob">D.O.B.</label>
-                {{input type="text" value=dob name="dob" placeholder="MM-DD-YYYY"}}
-                <label for="teacher">Choose a teacher</label>
-                <select onchange={{action "setSelection" value="target.value" }}>
-                    <option selected> -- The decision is Yours -- </option>
-                    {{#each model as |teacher|}}
-                        <option value={{teacher.id}}>{{teacher.teacher}}</option>
-                    {{/each}}
-                </select>
-                <div id="image">
-                    {{#if chosenTeacher}}
-                        {{#each chosenTeacher as |image|}}
-                            <img src="{{image.image}}" alt="{{image.teacher}}">
-                        {{/each}}
-                    {{/if}}
-                </div>
-                <label for="description">Your Deepest Desires</label>
-                {{textarea value=description name="description" rows="8" cols="40" placeholder="Dig deep down"}}
-                <input type="submit" name="submit" value="Start Training">
-            </form>
-        {{/if}}
-        {{!-- {{ember-chart type='bar' data=saiyanData}} --}}
-    </section>
+    {{sign-up model=model}}
 </div>
