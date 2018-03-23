@@ -1,4 +1,4 @@
-<h3>
+<h3 id="update">
     <form onsubmit={{action "update"}}>
         <label for="name">Update Name</label>
         {{input type="text" value=name id="name" name="name"}}
@@ -6,7 +6,6 @@
         {{textarea value=description id="description" name="description" rows="8" cols="40"}}
         <input type="submit" id="edit" value="update">
     </form>
-    <p id="message">&nbsp;</p>
 </h3>
 <h3 id="delete">
     <button onclick={{action "delete"}}>Delete profile</button>

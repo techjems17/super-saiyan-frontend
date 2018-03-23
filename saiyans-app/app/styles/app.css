@@ -152,6 +152,32 @@ input[type=submit]:hover {
   margin-top: 5px;
 }
 
+#delete {
+  margin-top: 10%;
+  margin-right: 25%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills h2 {
+  color: red;
+  text-align: center;
+}
+
+.edit-skill {
+  margin-left: 90%;
+}
+
+.edit-skill img {
+  height: 20px;
+  width: 20px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
 #footer {
   display: flex;
   justify-content: space-between;
