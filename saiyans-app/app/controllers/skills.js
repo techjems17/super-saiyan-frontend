@@ -8,19 +8,20 @@ export default Controller.extend({
                 name: this.get('name'),
                 description: this.get('description'),
             }
-            fetch("https://fast-thicket-14832.herokuapp.com/skills/", {
+            fetch("https://super-saiyan-api.herokuapp.com/skills/", {
                 method: 'POST',
                 body: JSON.stringify(body),
                 headers: new Headers({
                     'Content-Type': 'application/json'
                 })
             })
-                .then(res => {
-                    return res;
-                })
-                .catch(console.error);
-            event.target.reset();
-            setTimeout(location.reload.bind(location), 2000);
+            .then(res => {
+                return res;
+            })
+            .catch(console.error)
+            .then(() => {
+                window.location.assign('/skills');
+            });
         },
     },
 });

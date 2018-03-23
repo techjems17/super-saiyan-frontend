@@ -40,7 +40,7 @@ export default Component.extend({
                 teacher: this.get('teacherSelected'),
                 image: this.get('chosenTeacher'),
             }
-            fetch("https://fast-thicket-14832.herokuapp.com/profiles/", {
+            fetch("https://super-saiyan-api.herokuapp.com/profiles/", {
                 method: 'POST',
                 body: JSON.stringify(body),
                 headers: new Headers({

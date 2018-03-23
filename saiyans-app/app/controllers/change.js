@@ -12,7 +12,7 @@ export default Controller.extend({
             var arr = str.split("/");
             var id = arr[arr.length - 1];
 
-            fetch('https://fast-thicket-14832.herokuapp.com/profiles/' + id, {
+            fetch('https://super-saiyan-api.herokuapp.com/profiles/' + id, {
                 method: 'PATCH',
                 body: JSON.stringify(body),
                 headers: new Headers({
@@ -31,7 +31,7 @@ export default Controller.extend({
             var str = window.location.href;
             var arr = str.split("/");
             var id = arr[arr.length - 1];
-            fetch(`https://fast-thicket-14832.herokuapp.com/profiles/` + id, {
+            fetch(`https://super-saiyan-api.herokuapp.com/profiles/` + id, {
                 method: "DELETE"
             })
             .then(response => response)

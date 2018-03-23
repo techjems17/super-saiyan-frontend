@@ -4,6 +4,19 @@ header {
   text-align: center;
 }
 
+header li {
+  display: flex;
+  list-style: none;
+  border: 2px solid black;
+  margin-bottom: 25px;
+  padding-left: 5px;
+  background-color: orange;
+  color: red;
+  font-family: "Russo One";
+  justify-content: space-around;
+  margin: auto 5px 15px 5px;
+}
+
 .logo {
   margin-top: 10px;
   height: 150px;
@@ -14,6 +27,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 25px;
 }
 
 #trainers .card {
@@ -33,7 +47,7 @@ header {
   margin: 0px 45px;
 }
 
-li {
+.profiles li {
   display: flex;
   list-style: none;
   border: 2px solid black;
@@ -157,7 +171,6 @@ input[type=submit] {
   border: 2px solid black;
   text-decoration: none;
   color: red;
-
 }
 
 .skills {
@@ -168,6 +181,16 @@ input[type=submit] {
 .skills h2 {
   color: red;
   text-align: center;
+}
+
+.skills li {
+  list-style: none;
+  border: 2px solid black;
+  margin-bottom: 25px;
+  padding-left: 5px;
+  background-color: orange;
+  color: red;
+  font-family: "Russo One";
 }
 
 .edit-skill {

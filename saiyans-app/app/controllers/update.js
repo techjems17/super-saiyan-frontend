@@ -12,16 +12,18 @@ export default Controller.extend({
             var arr = str.split("/");
             var id = arr[arr.length - 1];
 
-            fetch('https://fast-thicket-14832.herokuapp.com/skills/' + id, {
+            fetch('https://super-saiyan-api.herokuapp.com/skills/' + id, {
                 method: 'PATCH',
                 body: JSON.stringify(body),
                 headers: new Headers({
                     'Content-Type': 'application/json'
                 })
             })
-                .then(response => response)
-                .catch(console.error);
-            event.target.reset();
+            .then(response => response)
+            .catch(console.error)
+            .then(() => {
+                window.location.assign('/skills');
+            });
         },
 
         delete(event) {
@@ -29,11 +31,14 @@ export default Controller.extend({
             var str = window.location.href;
             var arr = str.split("/");
             var id = arr[arr.length - 1];
-            fetch(`https://fast-thicket-14832.herokuapp.com/skills/` + id, {
+            fetch(`https://super-saiyan-api.herokuapp.com/skills/` + id, {
                 method: "DELETE"
             })
-                .then(response => response)
-                .catch(console.error);
+            .then(response => response)
+            .catch(console.error)
+            .then(() => {
+                window.location.assign('/skills');
+            });
         },
     },
 });
