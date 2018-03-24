@@ -1,11 +1,11 @@
 # super-saiyan-frontend
 Do you love Dragonball-Z and wish you could train like the saiyans do, this is the app for you! Create your own profile, choose your trainer, find out the skills you will be learning, add your own, and get training today!
 
-[Backend repo]()
+[Backend repo](https://github.com/techjems17/super-saiyan-backend)
 
 [Visit site](https://super-saiyan.herokuapp.com/)
 
-![screenshot]()
+![screenshot](https://github.com/techjems17/super-saiyan-frontend/blob/master/Screen%20Shot%202018-03-23%20at%204.13.29%20PM.png)
 
 ##Technologies
 
