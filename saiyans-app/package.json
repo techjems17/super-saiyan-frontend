@@ -2,9 +2,9 @@
   "name": "saiyans-app",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for saiyans-app goes here",
+  "description": "Dragonball profiles frontend",
   "license": "MIT",
-  "author": "",
+  "author": "Jordan Smith",
   "directories": {
     "doc": "doc",
     "test": "tests"
