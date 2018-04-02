@@ -3,7 +3,7 @@ Do you love Dragonball-Z and wish you could train like the saiyans do, this is t
 
 [Backend repo](https://github.com/techjems17/super-saiyan-backend)
 
-[Visit site](https://super-saiyan.herokuapp.com/)
+[Visit site](http://super-saiyan.surge.sh/)
 
 ![screenshot](https://github.com/techjems17/super-saiyan-frontend/blob/master/Screen%20Shot%202018-03-23%20at%204.13.29%20PM.png)
 
@@ -13,7 +13,7 @@ Do you love Dragonball-Z and wish you could train like the saiyans do, this is t
 * Cypress
 * Bootstrap
 * CSS
-* Heroku
+* Surge
 
 ## Prerequisites
 
