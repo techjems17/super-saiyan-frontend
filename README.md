@@ -7,7 +7,7 @@ Do you love Dragonball-Z and wish you could train like the saiyans do, this is t
 
 ![screenshot](https://github.com/techjems17/super-saiyan-frontend/blob/master/Screen%20Shot%202018-03-23%20at%204.13.29%20PM.png)
 
-##Technologies
+## Technologies
 
 * Ember.js
 * Cypress
